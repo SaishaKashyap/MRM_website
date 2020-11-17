@@ -1,0 +1,957 @@
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+
+table td {
+  text-align: left;
+  padding: 1% 2%;
+}
+
+/* Navbar */
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #00000080;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  color: #fa1212;
+  font-weight: bold;
+}
+
+.nav-item .nav-link:hover {
+  color: #fa1212;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+}
+
+/* Title */
+#title {
+  background-image: url(images/mars-bg.jpg);
+  background-repeat: no-repeat;
+  height: 1000px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.big-heading {
+  color: #838383;
+  font-size: 4rem;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.red {
+  color: #fa1616;
+}
+
+.red-bold {
+  color: #fa1616;
+  font-weight: 600;
+}
+
+/* Introduction */
+#intro {
+  background-color: #252525;
+}
+
+.intro-para {
+  padding: 4% 5%;
+  text-align: center;
+  font-family: 'Ubuntu', serif;
+  font-size: 218%;
+  color: #838383;
+}
+
+.intro-parallax {
+  background-image: url("images/rover2020.jpg");
+  min-height: 750px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* SAR */
+#sar {
+  background-color: #252525;
+  padding: 4% 5%;
+}
+
+.sar-para {
+  font-family: 'Ubuntu', serif;
+  font-size: 150%;
+  color: #838383;
+  text-align: justify;
+}
+
+.we {
+  font-size: 160%;
+  color: #fa1616;
+}
+
+.sar-video {
+  margin-left: 10%;
+}
+
+/* Subsystems */
+#subsystems {
+  padding: 4% 5%;
+  background-color: #41444b;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.subsystem-heading {
+  color: #ffffff;
+  text-align: center;
+}
+
+.subsystem-column {
+  padding: 3% 2%;
+}
+
+/* News */
+.news-parallax {
+  background-image: url("images/newspaper.jpg");
+  min-height: 600px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#news {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.news-para {
+  font-size: 150%;
+  padding: 3% 5%;
+}
+
+.news-link {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+}
+
+.news-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.news-articles {
+  font-size: 10px;
+  padding: 1% 5% 0;
+}
+
+.news-heading {
+  padding: 1% 5% 1% 0;
+}
+
+#news img {
+  width: 300px;
+  height: 200px;
+  margin-top: 2%;
+}
+
+.read-more {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 200%;
+  padding-bottom: 1%;
+}
+
+.read-more:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid #fa1212;
+}
+
+/* Sponsors */
+.sponsors {
+  background-image: url(images/light-bg.png);
+  text-align: center;
+  padding: 3% 5%;
+  background-color: #ffffff;
+}
+
+.sponsor-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  color: #252525;
+}
+
+.sponsors img {
+  max-width: 75%;
+  max-height: 75%;
+  padding: 20px 20px;
+}
+
+.mahe {
+  width: 50%;
+  height: 50%;
+}
+
+/* Contact Us */
+#contact-us {
+  text-align: center;
+}
+
+.contact-parallax {
+  background-image: url("images/contact-bg.jpg");
+  min-height: 750px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-heading {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  padding: 2% 5%;
+}
+
+.form-heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2% 2%;
+  margin: auto;
+}
+
+.form-inputs {
+  width: 450px;
+  background-color: #252525;
+  color: #ffffff;
+}
+
+/* Footer */
+#footer {
+  background-color: #252525;
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 1% 1%;
+}
+
+.a-link {
+  color: #fa1212;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.a-link:hover {
+  text-decoration: none;
+  color: #fa1616;
+  border-bottom: 1px solid #fa1616;
+  padding-bottom: 2px;
+}
+
+.fb-icon:hover {
+  color: #4267B2;
+}
+
+.yt-icon:hover {
+  color: #FF0000;
+}
+
+.ig-icon:hover {
+  color: #8a3ab9;
+}
+
+.in-icon:hover {
+  color: #2867B2;
+}
+
+.contact-icon {
+  color: #fa1212;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 45px;
+  color: #ffffff;
+}
+
+.icons a {
+  color: #ffffff;
+  padding: 10px 5px;
+}
+
+.developed {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 2px;
+  background-color: #000000;
+  color: #838383;
+}
+
+.developed a {
+  color: #838383;
+}
+
+/* Home Page ends */
+/* Common to all pages */
+.page-headings {
+  font-weight: 600;
+  padding: 5% 0%;
+  color: #838383;
+}
+
+.dark-page-headings {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 4% 0% 1%;
+  color: #252525;
+}
+
+.page-intros {
+  padding: 4% 5%;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+.page-paras {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2;
+  padding-bottom: 2%;
+}
+
+/* IRC Main Page */
+.irc-intro-parallax {
+  background-image: url("images/irc-2018.jpg");
+  min-height: 800px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.irc-intro {
+  background-color: #414141;
+}
+
+.irc-missions {
+  padding: 2% 5%;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #252525;
+  color: #ffffff;
+}
+
+/* IRC Main Page ends */
+/* IRDC Main Page */
+.irdc-intro {
+  background-color: #414141;
+}
+
+.irdc-rover {
+  padding-top: 3%;
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin: auto;
+}
+
+/* IRDC Main Page ends */
+/* About URC Main Page */
+.about-urc-intro {
+  background-color: #222222;
+}
+
+.urc-video {
+  padding-bottom: 2%;
+}
+
+.urc-buttons {
+  margin: 1% 2%;
+}
+
+.about-urc-parallax {
+  background-image: url("images/about-urc.jpg");
+  min-height: 400px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-urc-missions {
+  padding: 2% 5%;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+}
+
+/* About URC Main Page ends */
+/* About Us Main Page */
+.about-us-intro {
+  background-image: url(images/urc20-bg.gif);
+  background-size: cover;
+}
+
+/* About Us Main Page ends */
+/* Research Main Page */
+.research-intro {
+  background-color: #2d3436;
+  background-image: linear-gradient(90deg, #2d3436 0%, #000000 74%);
+  color: white;
+}
+
+.research-img1 {
+  width: 650px;
+  height: 402px;
+  padding-bottom: 5%;
+}
+
+.research-img2 {
+  width: 400px;
+  height: 395px;
+  padding-bottom: 5%;
+}
+
+.research-case-studies {
+  text-align: justify;
+}
+
+/* Research Main Page ends */
+/* Sponsor Us Page */
+.sponsor-us-intro {
+  background-image: url(images/about-us.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sponsor-image1 {
+  width: 500px;
+  height: 380px;
+  padding: 1% 2%;
+}
+
+.sponsor-image2 {
+  width: 500px;
+  height: 375px;
+  padding: 1% 2%;
+}
+
+.sponsor-head-para {
+  color: #ffffff;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2;
+  padding-bottom: 2%;
+}
+
+.sponsor-para {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 2;
+  margin: 10% 0%;
+}
+
+.spara2 {
+  text-align: left;
+}
+
+.spara1 {
+  text-align: right;
+}
+
+.sponsor-us-intro h4 {
+  color: #ffffff;
+}
+
+.sponsor-us-intro a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #fa1616;
+  padding-bottom: 2px;
+}
+
+/* Sponsor Us Main Page ends */
+/* Our Sponsors Main Page */
+.our-sponsors-intro {
+  background: rgb(53, 53, 53);
+  background: radial-gradient(circle, rgba(53, 53, 53, 1) 10%, rgba(44, 44, 44, 1) 41%, rgba(18, 18, 18, 1) 85%);
+}
+
+.mahe-sponsor {
+  width: 450px;
+  height: auto;
+}
+
+.sponsor-page-para {
+  padding: 13.5% 0% 0%;
+}
+
+.mahe-div {
+  text-align: center;
+}
+
+.sponsor-grid img {
+  height: auto;
+  width: 250px;
+  margin: 1%;
+}
+
+.sponsor-grid {
+  padding: 2% 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* Our Sponsors Main Page ends */
+/* Common to all URC pages */
+.urcs {
+  background-image: url(images/urcs-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 2% 5%;
+}
+
+.members {
+  background-image: url(images/light-bg.png);
+  padding: 2% 5% 5%;
+  text-align: center;
+}
+
+.member-div {
+  padding: 2% 1%;
+  display: inline-block;
+  text-align: left;
+}
+
+.members>div>img {
+  width: 100px;
+  height: 100px;
+}
+
+.members img {
+  display: inline-block;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.members p {
+  margin: 1% 2%;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #525252;
+  font-weight: bold;
+}
+
+.membertext {
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+
+.membertext h2 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.membertext i {
+  color: #0e76a8;
+}
+
+.membertext i:hover {
+  color: #252525;
+  cursor: pointer;
+}
+
+/* URC 2020 Page */
+.urc-20-intro {
+  background-image: url(images/urc20-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.urc-20-parallax {
+  background-image: url("images/rover20.jpg");
+  min-height: 700px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* URC 2019 Page */
+.urc-19-intro {
+  background-image: url(images/urc19-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.urc-19-parallax {
+  background-image: url("images/rover19.jpg");
+  min-height: 700px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* URC 2018 Page */
+.urc-18-intro {
+  background-image: url("images/urc18-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.urc-18-parallax {
+  background-image: url("images/rover18.jpg");
+  min-height: 700px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* URC 2017 Page */
+.urc-17-intro {
+  background-image: url("images/urc17-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.urc-17-parallax {
+  background-image: url("images/rover17.jpg");
+  min-height: 700px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* URC 2016 Page */
+.urc-16-intro {
+  background-image: url("images/urc16-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.urc-16-parallax {
+  background-image: url("images/rover16.jpg");
+  min-height: 700px;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* URC Pages end */
+/* Gallery Main Page  */
+.gallery-intro {
+  background-image: url("images/gallery-bg.jpg");
+  background-color: #000000;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+.gallery-heading {
+  font-weight: 600;
+  padding: 5% 0%;
+  color: #ffffff;
+}
+
+.carousel {
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.carousel-inner img {
+  margin: auto;
+  border-radius: 10%;
+}
+
+.urc-mini img {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 5px;
+}
+
+.urc-mini {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center;
+}
+
+.container-fluid iframe {
+  margin: 5% 0%;
+}
+
+.youtube-link {
+  margin-top: 5%;
+}
+
+.youtube-link i {
+  color: #ff0000;
+}
+
+.youtube-link i:hover {
+  color: #900d0d;
+}
+
+.youtube-link h5 {
+  color: #ffffff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+}
+
+/* Gallery Main Page ends */
+/* Mentions Main Page */
+.mentions-intro {
+  background-image: url("images/mentions.jpg");
+  background-repeat: no-repeat;
+  background-color: #252525;
+  background-size: cover;
+  background-position: center;
+}
+
+.mentions-heading {
+  font-weight: 600;
+  padding: 5% 0%;
+  color: #e8e8e8;
+}
+
+.box {
+  margin: 0% 2% 10%;
+}
+
+#mention-in-news h5 {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+#mention-in-news img {
+  width: 350px;
+  height: 233px;
+  padding-bottom: 2%;
+}
+
+#mention-in-news a {
+  color: #fff;
+  font-size: 110%;
+  padding-bottom: 1%;
+  font-weight: 600;
+}
+
+#mention-in-news a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 3px solid #fa1212;
+}
+
+/* For Mobile Phne Compatibility */
+@media only screen and (max-width: 700px) {
+  .big-heading {
+    padding-top: 250px;
+  }
+
+  .page-headings {
+    padding: 25% 0% 10%;
+    font-size: 200%;
+  }
+
+  .page-paras {
+    font-size: 17px;
+  }
+
+  .sar-video {
+    width: 350px;
+    height: 197px;
+    margin-left: 0;
+  }
+
+  .urc-video {
+    width: 350px;
+    height: 197px;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  #title {
+    height: 700px;
+  }
+
+  .subsystem-heading {
+    font-size: 150%;
+  }
+
+  .intro-para {
+    font-size: 120%;
+  }
+
+  .sar-para {
+    font-size: 100%;
+  }
+
+  .sponsor-heading {
+    font-size: 250%;
+  }
+
+  .form-inputs {
+    width: 300px;
+  }
+
+  .intro-parallax {
+    min-height: 400px;
+  }
+
+  .members-div {
+    padding-left: 0px;
+    margin-top: 40px;
+  }
+
+  .members>div>img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .membertext h2 {
+    font-size: 0.8em;
+  }
+
+  .contact-heading {
+    font-size: 250%;
+  }
+
+  .mahe {
+    height: 59px;
+    width: 100px;
+  }
+
+  .about-us-intro {
+    background-position: center;
+  }
+
+  .research-img1 {
+    width: 350px;
+    height: 197px;
+  }
+
+  .sponsor-image1 {
+    width: 355px;
+    height: 266px;
+  }
+
+  .sponsor-image2 {
+    width: 350px;
+    height: 262px;
+  }
+
+  .spara1, .spara2 {
+    text-align: justify;
+    font-size: 17px;
+  }
+
+  .sponsor-head-para {
+    font-size: 17px;
+  }
+
+  .sponsor-page-para {
+    padding-top: 25%;
+  }
+
+  .sponsor-grid img {
+    height: auto;
+    width: 200px;
+    padding: 5%;
+  }
+
+  .rover-images {
+    max-width: 350px;
+    max-height: 197px;
+  }
+
+  .urc-20-parallax {
+    min-height: 500px;
+    background-position: 65% 50%;
+  }
+
+  .urc-19-parallax {
+    min-height: 500px;
+    background-position: 77% 50%;
+  }
+
+  .urc-18-parallax {
+    min-height: 500px;
+    background-position: 35% 50%;
+  }
+
+  .urc-17-parallax {
+    min-height: 500px;
+    background-position: 52% 50%;
+  }
+
+  .urc-16-parallax {
+    min-height: 500px;
+  }
+
+  .container-fluid iframe {
+    width: 350px;
+    height: 197px;
+  }
+
+  .gallery-heading {
+    padding: 25% 0% 10%;
+    font-size: 200%;
+  }
+
+  .urc-mini img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+  }
+
+  .mentions-heading {
+    padding: 25% 0% 10%;
+    font-size: 150%;
+  }
+}
